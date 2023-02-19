@@ -1,0 +1,32 @@
+# print("hii", end="_________")
+ 
+# print("the value of x is :",x,"and the value of y is:",y)
+# print(r"how are you  \n i am good")
+  
+#  print(f"the value of x is:{x} and the value of y is: {y}")
+# x=20
+# y=10 
+# z =(f"the value of x is :{x} , the value of y is: {y} \n and their sum is is : {x +y}")
+# print(z)
+
+# user_name=input("enter your name\n")
+# print("hello",user_name)
+#  x=5
+#  y=10
+#  print("the value of x is %d and the value of y is %d" % (x,y))
+# x= input("enter your name:")
+# y= input("enter your email:")
+# print("name : user_name")
+# print("email : email_id")
+
+# x= input("enter first number:") first num= 20
+# y= input("enter second number:") second num= 30
+# print("the sum is:", x+y)
+# x = int(input("enter first num:"))
+# y = int(input("enter second num:"))
+# print("the sum is:", x+y)
+
+#  x,y = input("enter two num:").split() enter num with giving space
+# print("the sum is:", int(x) + int(y))
+x,y = input("enter two num:").split("_")
+print("the sum is:", int(x) + int(y))
